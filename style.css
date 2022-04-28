@@ -1,0 +1,86 @@
+* {
+  box-sizing:border-box;
+  border-radius: 50px;
+  text-align: center;
+  padding: 30px;
+  font-family:monospace;
+  flex-direction: column;
+ 
+}
+
+#head1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#head2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+#window {
+  border: solid 2px darkgoldenrod;
+  background-color: lightgoldenrodyellow;
+  box-shadow: 5px 5px darkred, 10px 10px black;
+}
+#container {
+  border: solid 2px lightgoldenrodyellow;
+  background-color: beige;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: fit-content;
+  box-shadow:0px 0px 5px darkred;
+}
+  
+#sound1box,
+#sound2box,
+#sound3box,
+#sound4box,
+#sound5box {
+/* #sound6,
+#sound7,
+#sound8,
+#sound9  */ 
+  font-size: 20px;
+  margin: 20px;
+  background-color: orange;
+  box-shadow: 5px 5px darkred, 10px 10px black;
+  text-align: center;
+  padding:10px;
+  margin-left: 10px;
+}
+  
+#sound1button,
+#sound2button,
+#sound3button,
+#sound4button,
+#sound5button {
+/* #sound6button,
+#sound7button,
+#sound8button,
+#sound9button  */ 
+  margin-right: 15px;
+  box-shadow: 5px 5px darkred, 10px 10px black;
+  border: dotted 2px red;
+  height: 20px;
+  width: 20px;
+  background-color: red;
+}
+
+#sound1button:hover,
+#sound2button:hover,
+#sound3button:hover,
+#sound4button:hover,
+#sound5button:hover {
+/* #sound6button:hover,
+#sound7button:hover,
+#sound8button:hover,
+#sound9button:hover */ 
+  background-color: lightcoral;
+  box-shadow: 5px 5px red, 10px 10px darkred;
+}
+
+#desc {
+  font-size: 14px;
+  font-weight: bold;
+}
